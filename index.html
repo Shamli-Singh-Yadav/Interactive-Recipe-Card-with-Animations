@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Aai's Kitchen — Sidebar</title>
+  <title>Aai's Kitchen</title>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script>
@@ -49,3 +49,140 @@
       </a>
     </nav>
   </aside>
+  ///
+
+  <main class="content" id="recipes">
+
+  
+    <div class="fancy-recipe-card">
+      <img src="cake-pi.jpg" alt="Chocolate Cake" class="recipe-hero" />
+      <div class="recipe-info">
+        <span class="pill">Prep: 25 min</span>
+        <span class="pill">Cook: 35 min</span>
+        <span class="pill">Servings: 8</span>
+      </div>
+      <button class="toggle-btn" onclick="toggleSection('ingredients1')">Show Ingredients</button>
+      <div class="section-content" id="ingredients1">
+        <ul>
+          <li>1¾ cups all-purpose flour</li>
+          <li>2 cups sugar</li>
+          <li>¾ cup cocoa powder</li>
+          <li>1 tsp baking soda</li>
+          <li>1 tsp baking powder</li>
+          <li>2 eggs</li>
+          <li>1 cup buttermilk</li>
+          <li>1 cup hot coffee</li>
+        </ul>
+      </div>
+      <button class="toggle-btn" onclick="toggleSection('instructions1')">Show Instructions</button>
+      <div class="section-content" id="instructions1">
+        <ol>
+          <li>Preheat oven to 350°F (175°C).</li>
+          <li>Mix dry ingredients.</li>
+          <li>Add wet ingredients & mix.</li>
+          <li>Slowly add coffee & stir.</li>
+          <li>Bake 30–35 min.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="fancy-recipe-card">
+      <img src="pasta.jpg" alt="Creamy Pasta" class="recipe-hero" />
+      <div class="recipe-info">
+        <span class="pill">Prep: 15 min</span>
+        <span class="pill">Cook: 20 min</span>
+        <span class="pill">Servings: 4</span>
+      </div>
+      <button class="toggle-btn" onclick="toggleSection('ingredients2')">Show Ingredients</button>
+      <div class="section-content" id="ingredients2">
+        <ul>
+          <li>200g pasta</li>
+          <li>2 tbsp olive oil</li>
+          <li>3 cloves garlic</li>
+          <li>1 cup cream</li>
+          <li>½ cup parmesan</li>
+          <li>Salt & pepper</li>
+        </ul>
+      </div>
+      <button class="toggle-btn" onclick="toggleSection('instructions2')">Show Instructions</button>
+      <div class="section-content" id="instructions2">
+        <ol>
+          <li>Boil pasta until al dente.</li>
+          <li>Sauté garlic in olive oil.</li>
+          <li>Add cream & cheese.</li>
+          <li>Mix pasta with sauce.</li>
+          <li>Serve hot with herbs.</li>
+        </ol>
+      </div>
+    </div>
+
+
+    <div class="fancy-recipe-card">
+      <img src="salad.jpg" alt="Fresh Salad" class="recipe-hero" />
+      <div class="recipe-info">
+        <span class="pill">Prep: 10 min</span>
+        <span class="pill">Cook: 0 min</span>
+        <span class="pill">Servings: 2</span>
+      </div>
+      <button class="toggle-btn" onclick="toggleSection('ingredients3')">Show Ingredients</button>
+      <div class="section-content" id="ingredients3">
+        <ul>
+          <li>1 cucumber</li>
+          <li>1 tomato</li>
+          <li>1 onion</li>
+          <li>½ lemon</li>
+          <li>Salt & pepper</li>
+        </ul>
+      </div>
+      <button class="toggle-btn" onclick="toggleSection('instructions3')">Show Instructions</button>
+      <div class="section-content" id="instructions3">
+        <ol>
+          <li>Chop veggies.</li>
+          <li>Add lemon juice, salt, pepper.</li>
+          <li>Toss well & serve.</li>
+        </ol>
+      </div>
+    </div>
+
+   
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Partner With Us</a></li>
+            <li><a href="#">Sponsorship</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Media</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Webinars</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Recipes</h4>
+          <ul>
+            <li><a href="#">Healthy Recipes</a></li>
+            <li><a href="#">Meal Prep Ideas</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
