@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  background: #fafafa;
+  color: #333;
+}
+
+.sidebar {
+  width: 240px;
+  background: #fff;
+  border-right: 1px solid #eee;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+.sidebar .logo h1 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #e67e22;
+  margin-bottom: 1rem;
+}
+.orange-strip {
+  width: 80%;
+  height: 4px;
+  background: #e67e22;
+  margin-bottom: 1.5rem;
+}
